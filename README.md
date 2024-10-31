@@ -10,7 +10,7 @@ The relational structure of the database not only promotes data integrity but al
 
 ---
 
-##Table of Contents
+## Table of Contents
 1. [Introduction](#introduction)
 2. [Database Design Process](#database-design-process)
    - [Requirements Gathering](#requirement-gathering)
