@@ -131,5 +131,26 @@ By aligning our design and implementation strategies with the specific requireme
 
 ---
 
+## Normalization 
+
+### First Normal Form (1NF)
+- Ensures that each column in a table contains only  atomicity values, meaning that each entry must be indivisible. This eliminates any repeating groups within a single column, allowing for a clearer structure.
+- **For example**:The patients table contains separate columns such as Email Address and Phone number. This design adheres to 1NF as each column holds a single piece of information. 
+
+### Second Normal Form (2NF)
+- Eliminates partial dependencies by ensuring that non-key attributes depend fully on the primary key.
+- For example: In the medical records table, attributes such as Diagnosis history and Treatment are fully dependent on Record_ID, the primary key of the table. This ensures that no partial dependencies exist, fulfilling the requirements of 2NF.  
+
+### Third Normal Form (3NF)
+- Eliminates transitive dependencie, ensuring data integrity by linking related tables through foreign keys.
+- For example: The patients table does not store Department name, which belongs to the departments table. By ensuring that such relationships are maintained in their respective tables, the design adheres to 3NF, promoting data integrity and reducing redundancy. 
+  
+---
+
+## Justification of Design Choices and Conclusion
+
+
+  
+
 
 
