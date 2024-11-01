@@ -74,6 +74,7 @@ By aligning our design and implementation strategies with the specific requireme
 ## Database Schema and Implementation 
 ### Patients Table
 
+
 | Column            | Data Type           | Constraints                        |
 |-------------------|---------------------|------------------------------------|
 | Patient_ID        | INT                 | PRIMARY KEY, AUTO- INCREMENT       |
@@ -148,6 +149,8 @@ By aligning our design and implementation strategies with the specific requireme
 ---
 
 ## Justification of Design Choices and Conclusion
+
+
 
 
   
