@@ -72,8 +72,9 @@ By aligning our design and implementation strategies with the specific requireme
 
 ---
 ## Database Schema and Implementation 
-### Patients Table
+![Screenshot 2024-11-01 163944](https://github.com/user-attachments/assets/06f5cd8f-0d4f-4c9a-82b7-4e0fd5e33054)
 
+### Patients Table
 
 | Column            | Data Type           | Constraints                        |
 |-------------------|---------------------|------------------------------------|
