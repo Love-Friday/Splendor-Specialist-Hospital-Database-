@@ -72,9 +72,8 @@ The system was implemented using T-SQL on SQL server. Key features include;
 ---
 
 ## Database Schema and Implementation 
-![Screenshot 2024-11-01 163944](https://github.com/user-attachments/assets/d1e851d1-1a45-4d99-a676-42cacc848921)
 
-
+![Screenshot 2024-11-01 163944](https://github.com/user-attachments/assets/47cde415-8b03-42ea-87f1-904df0e25fb0)
 
 ### Patients Table
 
