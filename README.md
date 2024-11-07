@@ -157,7 +157,7 @@ The system was implemented using T-SQL on SQL server. Key features include;
 
 ---
 
-##Conclusion
+## Conclusion
 
 The Splendor Database system is a rovbust and scalable solution designed to improve operational efficiency and healthcare quality, providing healthcare providers with quick access to essential data while ensuring data integrity. 
 
