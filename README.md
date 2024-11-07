@@ -61,18 +61,19 @@ Using an Entity- Relation (ER) Model, the following entities were defined;
 - **Appointments**: Scheduling and status
 - 
 ### Logical Design 
-The logical design phase involved translating the conceptual ER model into a structured format suitable for implementation in a relational database. This included defining specific tables for each entity identified earlier, ensuring that all relationships among entities are established correctly. For instance, the Appointments table is linked to both the Patients and Doctors tables through foreign keys, which helps maintain data integrity and referential integrity throughout the database.
-
-Appropriate primary keys were established for each table, ensuring that each record can be uniquely identified. For example, the PatientID serves as the primary key in the Patients table, while the AppointmentID uniquely identifies each appointment in the Appointments table. This design enhances data retrieval efficiency and supports the implementation of business rules, such as ensuring that a patient cannot book overlapping appointments with the same doctor.
+The conceptual ER model was translated into structured relational database tables with appropriate relationships. Foreign keys were used to maintain referential integrity. 
 
 ### Physical Design
-In the final phase, we implemented the physical design of the database using **T-SQL** within **SQL Server**. This involved selecting appropriate data types for each attribute, establishing constraints to ensure data accuracy, and creating indexes to optimize query performance. This meticulous approach to physical design ensures that the system not only meets current operational needs but is also scalable for future growth.
-
-By aligning our design and implementation strategies with the specific requirements gathered from stakeholders, Splendor Analytics Consultancy is committed to delivering a robust database solution that enhances the operational efficiency of Splendor Specialist Hospital  while ensuring high-quality patient care.
+The system was implemented using T-SQL on SQL server. Key features include; 
+- Selected appropriate data types for each attribute
+- Established constraints to ensure data accuracy
+- Optimized queries for performance. 
 
 ---
+
 ## Database Schema and Implementation 
-![Screenshot 2024-11-01 163944](https://github.com/user-attachments/assets/06f5cd8f-0d4f-4c9a-82b7-4e0fd5e33054)
+
+![Screenshot 2024-11-01 163944](https://github.com/user-attachments/assets/c0249ae0-6a90-4f68-b92b-b9250332cc78)
 
 ### Patients Table
 
@@ -150,6 +151,8 @@ By aligning our design and implementation strategies with the specific requireme
 ---
 
 ## Justification of Design Choices and Conclusion
+
+
 
 
 
