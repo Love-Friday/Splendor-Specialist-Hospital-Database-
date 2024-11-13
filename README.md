@@ -1,6 +1,8 @@
-# Splendor-Specialist-Hospital-Database-
+# Database-Design-for-Splendor-Specialist-Hospital-
 ## Project Description
 This project, Splendor Hospital Database, is a comprehensive database solution designed to enhance healthcare analytics and streamline hospital management. The DB contains 5 interconnected tables. The project also aims to contribute to improved healthcare outcomes via data-driven strategies. Join me in exploring data  potential in health sector. 
+## Tool
+In the project focused on designing a database for Splendor Specialist Hospital, **Microsoft SQL Database** was chosen as the primarily tool due to its robust features, scalability, and reliability.
 ## Project Overview
 This respository contains the **Database design and Implementation** project for **Splendor Specialist Hospital**, an innovative database solution designed to enhance the management and analysis of  healthcare data within the hospital. This comprehensive database project compelted by Love Friday in October, 2024 conains five interconnected tables: **Patients, Departments, Doctors, Medical Records, and Appointments**. 
 
